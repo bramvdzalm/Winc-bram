@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <title>Contact</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Blogwebsite fietsen</h1>
+      <a class="picto" href="index.html"
+        ><img
+          class="homeb"
+          src="home_house_icon-icons.com_49851.png"
+          alt="homeb"
+      /></a>
+    </div>
+    <nav class="navbar">
+      <div class="navele"><a href="blog.html">Blog</a></div>
+      <div class="navele"><a href="agenda.html">Agenda</a></div>
+      <div class="navele"><a href="routes.html">Routes</a></div>
+      <div class="navele"><a href="contact.html">Contact</a></div>
+    </nav>
+    <div class="main">
+      <form name="contact" method="POST" data-netlify="true">
+        <ul>
+          <li>
+            <label for="text">Naam:</label><br />
+            <input id="text" type="text" name="text" autofocus />
+          </li>
+          <li>
+            <label for="email">Email:</label><br />
+            <input id="email" type="email" name="email" />
+          </li>
+          <li>
+            <label class="reis" for="reisverhaal">Reisverhaal</label><br />
+            <textarea
+              id="reisverhaal"
+              type="reisverhaal"
+              name="reisverhaal"
+              rows="20"
+              cols="110"
+            ></textarea>
+          </li>
+          <li>
+            <label for="upload"
+              ><p>Upload hier je alle foto's van de reis:</p></label
+            >
+            <input type="file" id="upload" name="upload" />
+          </li>
+        </ul>
+        <input type="submit" value="verstuur" />
+      </form>
+    </div>
+    <div class="footer">
+      <a href="#"
+        ><img
+          src="facebook-logo_icon-icons.com_57152.png"
+          alt="fblogo"
+          class="imgfooter"
+      /></a>
+      <a href="#"
+        ><img
+          src="youtube-play-button_icon-icons.com_57042.png"
+          alt="youtube"
+          class="imgfooter"
+      /></a>
+      <a href="#"
+        ><img
+          src="twitter-logo_icon-icons.com_57059.png"
+          alt="twitter"
+          class="imgfooter"
+      /></a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+    rel="stylesheet"
+  />
+  <head>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contactformulier</h1>
+    </header>
+    <main>
+      <form name="contact" method="POST" data-netlify="true">
+        <ul>
+          <li>
+            <label for="text">Naam:</label>
+            <input id="text" type="text" name="text" autofocus />
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" />
+          </li>
+          <li>
+            <label for="mening">Opmerking</label>
+            <textarea
+              id="mening"
+              type="mening"
+              name="mening"
+              rows="5"
+            ></textarea>
+          </li>
+        </ul>
+        <input type="submit" value="verstuur" />
+      </form>
+    </main>
+    <nav></nav>
+    <footer>
+      <a href="index.html">Go back</a>
+    </footer>
+  </body>
+</html>

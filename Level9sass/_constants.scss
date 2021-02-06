@@ -1,0 +1,8 @@
+$backrlgreen : #c0eea9;
+$backrdgreen : #97d279;
+$padding20 : 30px;
+@mixin text {
+    font-size: 15px;
+    color: grey;
+    padding: $padding20;
+}

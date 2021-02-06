@@ -1,0 +1,39 @@
+.linkhover a:hover {
+  color: lightskyblue;
+  font-weight: bold;
+}
+.linkactive a:active {
+  color: red;
+  font-style: oblique;
+}
+.linkvisited a:visited {
+  color: yellow;
+}
+form input:focus {
+  color: green;
+  font-size: 20px;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: darkblue;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.navbar ul li {
+  padding-right: 40px;
+}
+.currentpage {
+  background-color: rgba(130, 190, 192, 0.623);
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li:hover {
+  background-color: lightblue;
+}
+.navbar ul li input:focus {
+    border: aqua solid 8px;
+}

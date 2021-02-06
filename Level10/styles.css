@@ -1,0 +1,299 @@
+body {
+  background-color: #c3cfe2;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.testimonial-container {
+  width: 450px;
+  height: 558px;
+  margin: 40px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 4px 10px -4px;
+          box-shadow: 0 4px 10px -4px;
+}
+
+.testimonial-container__top {
+  height: 325px;
+  width: 450px;
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.testimonial-container__middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 450px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), color-stop(50%, #686de0));
+  background: linear-gradient(180deg, white 50%, #686de0 50%);
+}
+
+.testimonial-container__bottom {
+  height: 133px;
+  width: 450px;
+  background-color: #686de0;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.testimonial-container__img {
+  border: solid white 5px;
+  border-radius: 50%;
+}
+
+.testimonial-container__top-text {
+  color: #5a5a5a;
+  font-size: 22px;
+  line-height: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+}
+
+.testimonial-container__bottom-text {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  line-height: 35px;
+  margin: 0px 50px;
+  padding-top: 25px;
+  letter-spacing: 2px;
+}
+
+.testimonial-container__bottom-text2 {
+  color: #afb2fd;
+  text-align: center;
+  font-size: 18px;
+  margin: 10px;
+  letter-spacing: 1px;
+}
+
+.portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.portfolio-container__card {
+  position: relative;
+  margin: 5px;
+}
+
+.portfolio-container__img {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.portfolio-container__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background: #2e2e2e;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+.portfolio-container__overlay:hover {
+  opacity: 1;
+}
+
+.portfolio-container__button {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.socialmedia-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 200px;
+}
+
+.socialmedia-container__box {
+  display: block;
+  font-size: 25px;
+  color: white;
+  width: 60px;
+  height: 50px;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.socialmedia-container__box:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+}
+
+.socialmedia-container__icont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 50px;
+}
+
+.socialmedia-container__text {
+  margin: 0px;
+  font-size: 20px;
+  color: white;
+}
+
+.socialmedia-container__overlay {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+}
+
+.socialmedia-container__overlay:hover {
+  opacity: 1;
+}
+
+.twitter {
+  background-color: #00aced;
+}
+
+.blog {
+  background-color: #e17b77;
+}
+
+.github {
+  background-color: #333;
+}
+
+.linkedin {
+  background-color: #007bb6;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 20px;
+  background-color: #0077e7;
+}
+
+.navbar__prob {
+  background-color: #0077e7;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__prob:hover {
+  background: black;
+}
+
+@media only screen and (min-width: 720px) {
+  .portfolio-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .portfolio-container__card {
+    width: 45%;
+    margin: 5px;
+  }
+  .portfolio-container__img {
+    width: 100%;
+    border-radius: 1%;
+  }
+}
+
+@media only screen and (min-width: 1060px) {
+  .portfolio-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .portfolio-container__card {
+    width: 30%;
+    margin: 5px;
+  }
+  .portfolio-container__img {
+    width: 100%;
+    border-radius: 1%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
