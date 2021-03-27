@@ -1,5 +1,4 @@
 
-    
     // let getal = function (min, max) {
     //     let nummer = Math.round((Math.random() * max) + min);
     //     while (nummer > max) {

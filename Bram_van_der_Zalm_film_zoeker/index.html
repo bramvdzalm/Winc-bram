@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 20 filmzoeker</title>
+    
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welkom bij de Winc filmzoeker!</h1>
+    <nav class="nav-bar">
+        <input type="radio" id="new-movies" name="filter" value="new-movies">
+        <label for="new-movies" class="radio-item">New Movies</label>
+
+        <input type="radio" id="avengers" name="filter" value="avengers">
+        <label for="avengers" class="radio-item">Avengers</label>
+
+        <input type="radio" id="xmen" name="filter" value="xmen">
+        <label for="xmen" class="radio-item">X-men</label>
+
+        <input type="radio" id="princess" name="filter" value="princess">
+        <label for="princess" class="radio-item">Princess</label>
+
+        <input type="radio" id="batman" name="filter" value="batman">
+        <label for="batman" class="radio-item">Batman</label>
+
+        <input type="radio" id="all-movies" name="filter" value="all-movies">
+        <label for="all-movies" class="radio-item active">All movies</label>
+    </nav>
+    <main>
+        <ul id="movies-list">
+
+        </ul>
+    </main>
+</body>
+
+</html>
