@@ -28,7 +28,3 @@ let removeFirstItem = () => {
   let removeAllButton = document.getElementById("remove-all-button");
   removeAllButton.addEventListener("click", removeAll);
 
-  var radius = 100;
-  var sides = 3;
-  
-  var poly = new Poly(radius, sides).center();

@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html>
        <head>
+         <script defer src="script.js"></script>
         <title>Level 13 Objecten</title>
        </head>
        <body> 
-          <script src="script.js"></script>
+          <h1>Hoi dit is mijn test pagina</h1>
+          <form>
+             value 1: <input type="text" id="waarde1"><br>
+             value 2: <input type="text" id="waarde2"><br>
+             Operator:
+             <select id="operator">
+                <option value="add">+</option>
+                <option value="min">-</option>
+                <option value="div">/</option>
+                <option value="mul">x</option>
+             </select>
+             <button type="button" onclick="calculate()">Calculate</button>
+          </form>
+
+          <div id="result"></div>
+
        </body>
 </html>

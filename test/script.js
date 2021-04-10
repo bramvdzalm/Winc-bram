@@ -1,16 +1,20 @@
+function calculate() {
+    let a = parseInt(document.querySelector("#waarde1").value)
+    let b = parseInt(document.querySelector("#waarde2").value)
+    let op = document.querySelector("#operator").value
+    let calculate1
 
-    // let getal = function (min, max) {
-    //     let nummer = Math.round((Math.random() * max) + min);
-    //     while (nummer > max) {
-    //         nummer = Math.round((Math.random() * max) + min);
-    //     }
-    //     return nummer;
-    // } 
+    if(op == "add") {
+        calculate1 = a + b;
+    } else if (op == "min") {
+        calculate1 = a - b;
+    } else if (op == "div") {
+        calculate1 = a / b
+    } else if (op == "mul") {
+        calculate1 = a * b
+    }
 
-function range(min, max) {
- return Math.floor( (Math.random() * (max - min) ) + min );
-    
+    document.querySelector("#result").innerHTML = calculate1
+
 }
-// return range;
 
-    console.log(range(88, 92));
